@@ -16,6 +16,8 @@
 		50B7A54C1DEC3C5C00929378 /* Client_GitHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B7A54B1DEC3C5C00929378 /* Client_GitHubUITests.swift */; };
 		50B7A55B1DEC417600929378 /* RepositoryList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50B7A55A1DEC417600929378 /* RepositoryList.xib */; };
 		50B7A55D1DEC457000929378 /* RepositoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B7A55C1DEC457000929378 /* RepositoryList.swift */; };
+		749170C51DEEDB42002B3F44 /* LoginScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 749170C41DEEDB42002B3F44 /* LoginScreen.xib */; };
+		749170C71DEEDB53002B3F44 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749170C61DEEDB53002B3F44 /* LoginScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		50B7A54D1DEC3C5C00929378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50B7A55A1DEC417600929378 /* RepositoryList.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RepositoryList.xib; sourceTree = "<group>"; };
 		50B7A55C1DEC457000929378 /* RepositoryList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryList.swift; sourceTree = "<group>"; };
+		749170C41DEEDB42002B3F44 /* LoginScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginScreen.xib; sourceTree = "<group>"; };
+		749170C61DEEDB53002B3F44 /* LoginScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +139,8 @@
 			children = (
 				50B7A55A1DEC417600929378 /* RepositoryList.xib */,
 				50B7A55C1DEC457000929378 /* RepositoryList.swift */,
+				749170C41DEEDB42002B3F44 /* LoginScreen.xib */,
+				749170C61DEEDB53002B3F44 /* LoginScreen.swift */,
 			);
 			name = Screens;
 			sourceTree = "<group>";
@@ -248,6 +254,7 @@
 			files = (
 				50B7A55B1DEC417600929378 /* RepositoryList.xib in Resources */,
 				50B7A5361DEC3C5C00929378 /* LaunchScreen.storyboard in Resources */,
+				749170C51DEEDB42002B3F44 /* LoginScreen.xib in Resources */,
 				50B7A5331DEC3C5C00929378 /* Assets.xcassets in Resources */,
 				50B7A5311DEC3C5C00929378 /* Main.storyboard in Resources */,
 			);
@@ -275,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50B7A52E1DEC3C5C00929378 /* ViewController.swift in Sources */,
+				749170C71DEEDB53002B3F44 /* LoginScreen.swift in Sources */,
 				50B7A55D1DEC457000929378 /* RepositoryList.swift in Sources */,
 				50B7A52C1DEC3C5C00929378 /* AppDelegate.swift in Sources */,
 			);
@@ -519,6 +527,7 @@
 				50B7A5521DEC3C5C00929378 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50B7A5531DEC3C5C00929378 /* Build configuration list for PBXNativeTarget "Client GitHubTests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +536,7 @@
 				50B7A5551DEC3C5C00929378 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50B7A5561DEC3C5C00929378 /* Build configuration list for PBXNativeTarget "Client GitHubUITests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +545,7 @@
 				50B7A5581DEC3C5C00929378 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
