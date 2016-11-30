@@ -8,16 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		50B7A52C1DEC3C5C00929378 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B7A52B1DEC3C5C00929378 /* AppDelegate.swift */; };
-		50B7A52E1DEC3C5C00929378 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B7A52D1DEC3C5C00929378 /* ViewController.swift */; };
+		50B7A52E1DEC3C5C00929378 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B7A52D1DEC3C5C00929378 /* MainViewController.swift */; };
 		50B7A5311DEC3C5C00929378 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B7A52F1DEC3C5C00929378 /* Main.storyboard */; };
 		50B7A5331DEC3C5C00929378 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50B7A5321DEC3C5C00929378 /* Assets.xcassets */; };
 		50B7A5361DEC3C5C00929378 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B7A5341DEC3C5C00929378 /* LaunchScreen.storyboard */; };
 		50B7A5411DEC3C5C00929378 /* Client_GitHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B7A5401DEC3C5C00929378 /* Client_GitHubTests.swift */; };
 		50B7A54C1DEC3C5C00929378 /* Client_GitHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B7A54B1DEC3C5C00929378 /* Client_GitHubUITests.swift */; };
-		50B7A55B1DEC417600929378 /* RepositoryList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50B7A55A1DEC417600929378 /* RepositoryList.xib */; };
-		50B7A55D1DEC457000929378 /* RepositoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B7A55C1DEC457000929378 /* RepositoryList.swift */; };
-		749170C51DEEDB42002B3F44 /* LoginScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 749170C41DEEDB42002B3F44 /* LoginScreen.xib */; };
-		749170C71DEEDB53002B3F44 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749170C61DEEDB53002B3F44 /* LoginScreen.swift */; };
+		749170C91DEEE08E002B3F44 /* RepositoryListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749170C81DEEE08E002B3F44 /* RepositoryListVC.swift */; };
+		749170CC1DEEE0D1002B3F44 /* RepositoryListVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 749170CA1DEEE0D1002B3F44 /* RepositoryListVC.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +38,7 @@
 /* Begin PBXFileReference section */
 		50B7A5281DEC3C5C00929378 /* Client GitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Client GitHub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B7A52B1DEC3C5C00929378 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		50B7A52D1DEC3C5C00929378 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50B7A52D1DEC3C5C00929378 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		50B7A5301DEC3C5C00929378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50B7A5321DEC3C5C00929378 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50B7A5351DEC3C5C00929378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,10 +49,8 @@
 		50B7A5471DEC3C5C00929378 /* Client GitHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Client GitHubUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B7A54B1DEC3C5C00929378 /* Client_GitHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client_GitHubUITests.swift; sourceTree = "<group>"; };
 		50B7A54D1DEC3C5C00929378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50B7A55A1DEC417600929378 /* RepositoryList.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RepositoryList.xib; sourceTree = "<group>"; };
-		50B7A55C1DEC457000929378 /* RepositoryList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryList.swift; sourceTree = "<group>"; };
-		749170C41DEEDB42002B3F44 /* LoginScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginScreen.xib; sourceTree = "<group>"; };
-		749170C61DEEDB53002B3F44 /* LoginScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		749170C81DEEE08E002B3F44 /* RepositoryListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryListVC.swift; sourceTree = "<group>"; };
+		749170CB1DEEE0D1002B3F44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/RepositoryListVC.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				50B7A52B1DEC3C5C00929378 /* AppDelegate.swift */,
-				50B7A52D1DEC3C5C00929378 /* ViewController.swift */,
+				50B7A52D1DEC3C5C00929378 /* MainViewController.swift */,
 				50B7A52F1DEC3C5C00929378 /* Main.storyboard */,
+				749170CA1DEEE0D1002B3F44 /* RepositoryListVC.storyboard */,
 				50B7A5321DEC3C5C00929378 /* Assets.xcassets */,
 				50B7A5341DEC3C5C00929378 /* LaunchScreen.storyboard */,
 				50B7A5371DEC3C5C00929378 /* Info.plist */,
@@ -137,10 +134,7 @@
 		50B7A5591DEC40E800929378 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				50B7A55A1DEC417600929378 /* RepositoryList.xib */,
-				50B7A55C1DEC457000929378 /* RepositoryList.swift */,
-				749170C41DEEDB42002B3F44 /* LoginScreen.xib */,
-				749170C61DEEDB53002B3F44 /* LoginScreen.swift */,
+				749170C81DEEE08E002B3F44 /* RepositoryListVC.swift */,
 			);
 			name = Screens;
 			sourceTree = "<group>";
@@ -252,11 +246,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50B7A55B1DEC417600929378 /* RepositoryList.xib in Resources */,
 				50B7A5361DEC3C5C00929378 /* LaunchScreen.storyboard in Resources */,
-				749170C51DEEDB42002B3F44 /* LoginScreen.xib in Resources */,
 				50B7A5331DEC3C5C00929378 /* Assets.xcassets in Resources */,
 				50B7A5311DEC3C5C00929378 /* Main.storyboard in Resources */,
+				749170CC1DEEE0D1002B3F44 /* RepositoryListVC.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,9 +274,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50B7A52E1DEC3C5C00929378 /* ViewController.swift in Sources */,
-				749170C71DEEDB53002B3F44 /* LoginScreen.swift in Sources */,
-				50B7A55D1DEC457000929378 /* RepositoryList.swift in Sources */,
+				749170C91DEEE08E002B3F44 /* RepositoryListVC.swift in Sources */,
+				50B7A52E1DEC3C5C00929378 /* MainViewController.swift in Sources */,
 				50B7A52C1DEC3C5C00929378 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +326,14 @@
 				50B7A5351DEC3C5C00929378 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		749170CA1DEEE0D1002B3F44 /* RepositoryListVC.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				749170CB1DEEE0D1002B3F44 /* Base */,
+			);
+			name = RepositoryListVC.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

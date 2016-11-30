@@ -71,11 +71,31 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="129.98500749625188"/>
         </scene>
-        <!--RepositoryList-->
-        <scene sceneID="ajm-1z-gxw">
+        <!--Repository list-->
+        <scene sceneID="1fv-uC-n22">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="RepositoryList" storyboardName="RepositoryListVC" referencedIdentifier="RepositoryList" id="a4c-l2-KBS" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QvI-Y3-6Mk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController storyboardIdentifier="RepositoryList" title="Repository list" useStoryboardIdentifierAsRestorationIdentifier="YES" id="TrN-Ag-UfC" customClass="RepositoryListVC" customModule="Client_GitHub" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="PGy-k7-yQ4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="8ZO-yy-mta">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8ZO-yy-mta" id="gAf-kG-0yg">
+                                    <frame key="frameInset" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="TrN-Ag-UfC" id="C6N-17-KYa"/>
+                            <outlet property="delegate" destination="TrN-Ag-UfC" id="v5Y-2c-a6q"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ja3-e5-ZLP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="791" y="130"/>
         </scene>
