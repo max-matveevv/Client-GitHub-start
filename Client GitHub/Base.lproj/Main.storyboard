@@ -98,6 +98,14 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="129.98500749625188"/>
         </scene>
+        <!--InfoRepository-->
+        <scene sceneID="k4k-NC-ewe">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="InfoRepository" storyboardName="InforRepository" referencedIdentifier="InfoRepository" id="eIg-sj-YPb" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tZK-kA-eAK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2138" y="130"/>
+        </scene>
     </scenes>
     <resources>
         <image name="technology-icon-github" width="250" height="100"/>

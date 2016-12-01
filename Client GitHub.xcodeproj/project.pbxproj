@@ -19,6 +19,8 @@
 		749170CC1DEEE0D1002B3F44 /* RepositoryListVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 749170CA1DEEE0D1002B3F44 /* RepositoryListVC.storyboard */; };
 		749170CE1DEEE34F002B3F44 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 749170CD1DEEE34F002B3F44 /* Podfile */; };
 		749170D01DEEF0A9002B3F44 /* AuthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749170CF1DEEF0A9002B3F44 /* AuthData.swift */; };
+		749170D41DF04949002B3F44 /* InfoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749170D31DF04949002B3F44 /* InfoRepository.swift */; };
+		749170D71DF04A0D002B3F44 /* InforRepository.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 749170D51DF04A0D002B3F44 /* InforRepository.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		749170CB1DEEE0D1002B3F44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/RepositoryListVC.storyboard; sourceTree = "<group>"; };
 		749170CD1DEEE34F002B3F44 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		749170CF1DEEF0A9002B3F44 /* AuthData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthData.swift; sourceTree = "<group>"; };
+		749170D31DF04949002B3F44 /* InfoRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoRepository.swift; sourceTree = "<group>"; };
+		749170D61DF04A0D002B3F44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/InforRepository.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,7 @@
 				50B7A52B1DEC3C5C00929378 /* AppDelegate.swift */,
 				50B7A52D1DEC3C5C00929378 /* MainViewController.swift */,
 				50B7A52F1DEC3C5C00929378 /* Main.storyboard */,
+				749170D51DF04A0D002B3F44 /* InforRepository.storyboard */,
 				749170CA1DEEE0D1002B3F44 /* RepositoryListVC.storyboard */,
 				50B7A5321DEC3C5C00929378 /* Assets.xcassets */,
 				50B7A5341DEC3C5C00929378 /* LaunchScreen.storyboard */,
@@ -165,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				749170C81DEEE08E002B3F44 /* RepositoryListVC.swift */,
+				749170D31DF04949002B3F44 /* InfoRepository.swift */,
 			);
 			name = Screens;
 			sourceTree = "<group>";
@@ -282,6 +288,7 @@
 				749170CE1DEEE34F002B3F44 /* Podfile in Resources */,
 				50B7A5361DEC3C5C00929378 /* LaunchScreen.storyboard in Resources */,
 				50B7A5331DEC3C5C00929378 /* Assets.xcassets in Resources */,
+				749170D71DF04A0D002B3F44 /* InforRepository.storyboard in Resources */,
 				50B7A5311DEC3C5C00929378 /* Main.storyboard in Resources */,
 				749170CC1DEEE0D1002B3F44 /* RepositoryListVC.storyboard in Resources */,
 			);
@@ -356,6 +363,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				749170D41DF04949002B3F44 /* InfoRepository.swift in Sources */,
 				749170C91DEEE08E002B3F44 /* RepositoryListVC.swift in Sources */,
 				749170D01DEEF0A9002B3F44 /* AuthData.swift in Sources */,
 				50B7A52E1DEC3C5C00929378 /* MainViewController.swift in Sources */,
@@ -417,6 +425,14 @@
 				749170CB1DEEE0D1002B3F44 /* Base */,
 			);
 			name = RepositoryListVC.storyboard;
+			sourceTree = "<group>";
+		};
+		749170D51DF04A0D002B3F44 /* InforRepository.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				749170D61DF04A0D002B3F44 /* Base */,
+			);
+			name = InforRepository.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
