@@ -8,6 +8,7 @@
 
 import UIKit
 import Alamofire
+import SVProgressHUD
 
 class MainViewController: UIViewController {
     @IBOutlet weak var loginTextField: UITextField!
@@ -29,12 +30,19 @@ class MainViewController: UIViewController {
         let user = loginTextField.text ?? ""
         let password = passwordTextField.text ?? ""
         
+        SVProgressHUD.show()
+        
         AuthData.sharedInstance.login(user: user, password: password) { (isSuccess) in
+            
+            
             if isSuccess {
+                SVProgressHUD.dismiss()
+            
                 let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-                let vc = storyboard.instantiateViewController(withIdentifier: "RepositoryList")
+                let vc = storyboard.instantiateViewController(withIdentifier: "RepositoryListVC")
                 self.navigationController?.pushViewController(vc, animated: true)
             } else {
+                SVProgressHUD.dismiss()
                 let alertController = UIAlertController(title: "Error", message: "Invalid credentials", preferredStyle: .alert)
                 let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
                 alertController.addAction(okAction)

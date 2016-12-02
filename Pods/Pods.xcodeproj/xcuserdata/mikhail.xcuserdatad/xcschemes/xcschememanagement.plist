@@ -9,7 +9,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>HTTPStatusCodes.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Client GitHub.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SVProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,7 +27,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2D051768D3988C7AB2486E31968C4576</key>
+		<key>6854954F97FB4BB842A5C18474BE3109</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>77674C3C4031A42895A431270173424A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>873D8479D5D0094FE674A5768E09C903</key>
 		<dict>
 			<key>primary</key>
 			<true/>

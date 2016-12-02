@@ -73,10 +73,10 @@
             </objects>
             <point key="canvasLocation" x="1076" y="129.98500749625188"/>
         </scene>
-        <!--RepositoryList-->
+        <!--RepositoryListVC-->
         <scene sceneID="ajm-1z-gxw">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="RepositoryList" storyboardName="RepositoryListVC" referencedIdentifier="RepositoryList" id="a4c-l2-KBS" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardIdentifier="RepositoryListVC" storyboardName="RepositoryListVC" referencedIdentifier="RepositoryListVC" id="a4c-l2-KBS" userLabel="RepositoryListVC" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QvI-Y3-6Mk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1729.5999999999999" y="129.53523238380811"/>

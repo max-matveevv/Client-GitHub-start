@@ -4,4 +4,6 @@ use_frameworks!
 
 target 'Client GitHub' do
     pod 'Alamofire'
+    pod 'HTTPStatusCodes'
+    pod 'SVProgressHUD'
 end
