@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
+        <!--Repository ListVC-->
         <scene sceneID="L5Y-Pj-D5u">
             <objects>
-                <tableViewController id="yxb-r4-0v0" sceneMemberID="viewController">
+                <tableViewController id="yxb-r4-0v0" customClass="RepositoryListVC" customModule="Client_GitHub" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="u3A-QH-c6k">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -35,13 +35,11 @@
                                         </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="8qX-VG-azU" firstAttribute="top" secondItem="z9y-6j-dkX" secondAttribute="topMargin" constant="5" id="60R-za-4ij"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="dt2-6l-gd6" secondAttribute="bottom" constant="5" id="66N-GV-FQr"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="8qX-VG-azU" secondAttribute="trailing" constant="5" id="B7e-hv-6WW"/>
-                                        <constraint firstItem="8qX-VG-azU" firstAttribute="leading" secondItem="dt2-6l-gd6" secondAttribute="trailing" constant="80" id="LgP-ft-Zo1"/>
+                                        <constraint firstItem="8qX-VG-azU" firstAttribute="leading" secondItem="dt2-6l-gd6" secondAttribute="trailing" constant="85" id="LgP-ft-Zo1"/>
+                                        <constraint firstItem="8qX-VG-azU" firstAttribute="centerY" secondItem="dt2-6l-gd6" secondAttribute="centerY" id="TP3-8n-Zf5"/>
                                         <constraint firstItem="dt2-6l-gd6" firstAttribute="top" secondItem="z9y-6j-dkX" secondAttribute="topMargin" constant="5" id="czC-jQ-iR7"/>
                                         <constraint firstItem="dt2-6l-gd6" firstAttribute="leading" secondItem="z9y-6j-dkX" secondAttribute="leadingMargin" constant="5" id="f9X-FM-6ZG"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="8qX-VG-azU" secondAttribute="bottom" constant="5" id="fBb-hi-PWt"/>
                                     </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -51,6 +49,9 @@
                             <outlet property="delegate" destination="yxb-r4-0v0" id="Gxq-Jk-Zoo"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="tableRepository" destination="u3A-QH-c6k" id="qMI-1U-xYs"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CUk-E4-cuP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
