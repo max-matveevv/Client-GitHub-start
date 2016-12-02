@@ -9,6 +9,7 @@
 import UIKit
 
 class RepositoryListVC: UITableViewController {
+    @IBOutlet var tableRepository: UITableView!
 
     override func viewDidLoad() {
         super.viewDidLoad()

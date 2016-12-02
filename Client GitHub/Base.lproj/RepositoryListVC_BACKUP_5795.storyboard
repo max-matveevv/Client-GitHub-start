@@ -10,7 +10,11 @@
         <!--Repository ListVC-->
         <scene sceneID="L5Y-Pj-D5u">
             <objects>
+<<<<<<< HEAD
                 <tableViewController storyboardIdentifier="RepositoryListVC" id="yxb-r4-0v0" customClass="RepositoryListVC" customModule="Client_GitHub" customModuleProvider="target" sceneMemberID="viewController">
+=======
+                <tableViewController id="yxb-r4-0v0" customClass="RepositoryListVC" customModule="Client_GitHub" customModuleProvider="target" sceneMemberID="viewController">
+>>>>>>> origin/master
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="u3A-QH-c6k">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
