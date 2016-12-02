@@ -23,25 +23,25 @@
                                     <frame key="frameInset" width="375" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name Repository" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ASu-WV-s3g">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="when it was made" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8qX-VG-azU">
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="when it was made" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J6w-Ob-MVi">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name Repository" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dt2-6l-gd6">
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstAttribute="trailingMargin" secondItem="J6w-Ob-MVi" secondAttribute="trailing" constant="5" id="6lu-xw-Nxo"/>
-                                        <constraint firstItem="J6w-Ob-MVi" firstAttribute="top" secondItem="z9y-6j-dkX" secondAttribute="topMargin" constant="5" id="8uB-xZ-1lO"/>
-                                        <constraint firstItem="ASu-WV-s3g" firstAttribute="top" secondItem="z9y-6j-dkX" secondAttribute="topMargin" constant="5" id="DcC-vs-Wvl"/>
-                                        <constraint firstItem="ASu-WV-s3g" firstAttribute="leading" secondItem="z9y-6j-dkX" secondAttribute="leadingMargin" constant="5" id="Flc-o8-cAF"/>
-                                        <constraint firstItem="J6w-Ob-MVi" firstAttribute="height" secondItem="ASu-WV-s3g" secondAttribute="height" id="V4F-Mh-hRI"/>
-                                        <constraint firstItem="J6w-Ob-MVi" firstAttribute="leading" secondItem="ASu-WV-s3g" secondAttribute="trailing" constant="80" id="iSE-Bh-kGG"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="ASu-WV-s3g" secondAttribute="bottom" constant="5" id="zq7-NN-0FJ"/>
+                                        <constraint firstItem="8qX-VG-azU" firstAttribute="top" secondItem="z9y-6j-dkX" secondAttribute="topMargin" constant="5" id="60R-za-4ij"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="dt2-6l-gd6" secondAttribute="bottom" constant="5" id="66N-GV-FQr"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="8qX-VG-azU" secondAttribute="trailing" constant="5" id="B7e-hv-6WW"/>
+                                        <constraint firstItem="8qX-VG-azU" firstAttribute="leading" secondItem="dt2-6l-gd6" secondAttribute="trailing" constant="80" id="LgP-ft-Zo1"/>
+                                        <constraint firstItem="dt2-6l-gd6" firstAttribute="top" secondItem="z9y-6j-dkX" secondAttribute="topMargin" constant="5" id="czC-jQ-iR7"/>
+                                        <constraint firstItem="dt2-6l-gd6" firstAttribute="leading" secondItem="z9y-6j-dkX" secondAttribute="leadingMargin" constant="5" id="f9X-FM-6ZG"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="8qX-VG-azU" secondAttribute="bottom" constant="5" id="fBb-hi-PWt"/>
                                     </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
