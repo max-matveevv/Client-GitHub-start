@@ -64,6 +64,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="prU-Vu-AA2"/>
                     <connections>
+                        <outlet property="loginButton" destination="te7-e9-lkz" id="7mQ-kD-NxI"/>
                         <outlet property="loginTextField" destination="Vba-5Z-eN1" id="zKa-LF-MVX"/>
                         <outlet property="passwordTextField" destination="9ex-X3-6lK" id="bK6-56-RhD"/>
                     </connections>

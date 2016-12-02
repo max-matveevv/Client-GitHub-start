@@ -46,7 +46,9 @@ class AuthData {
         
     }
     
-    func login(user: String, password: String, completion: @escaping (Bool) -> ()) {
+    func login(user: String,
+               password: String,
+               completion: @escaping (Bool) -> ()) {
         let credentialsStr = String(format: "%@:%@", user, password)
         guard let credentialsData = credentialsStr.data(using: String.Encoding.utf8)?.base64EncodedString() else {
             signOut()
@@ -55,7 +57,11 @@ class AuthData {
         }
         
         let authString = String(format: "Basic %@", credentialsData)
-        Alamofire.request("https://api.github.com/user", method: .get, parameters: nil, encoding: URLEncoding.default, headers: ["Authorization": authString])
+        Alamofire.request("https://api.github.com/user",
+                          method: .get,
+                          parameters: nil,
+                          encoding: URLEncoding.default,
+                          headers: ["Authorization": authString])
             .responseJSON { response in
                 if response.response?.statusCode == 200 {
                     self._userName = user
@@ -66,6 +72,20 @@ class AuthData {
                     completion(false)
                 }
         }
+    }
+    
+    func request(
+        url: URLConvertible,
+        method: HTTPMethod,
+        parameters: Parameters,
+        headers: HTTPHeaders? = nil,
+        completion: @escaping (_ dict: [String : AnyObject]) -> (),
+        error: @escaping () -> ()) {
+        
+        Alamofire.request(url,
+                          method: method,
+                          parameters: parameters,
+                          headers: headers)
     }
     
     func signOut() {
