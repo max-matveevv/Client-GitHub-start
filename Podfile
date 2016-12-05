@@ -6,4 +6,5 @@ target 'Client GitHub' do
     pod 'Alamofire'
     pod 'HTTPStatusCodes'
     pod 'SVProgressHUD'
+    pod 'Gloss'
 end

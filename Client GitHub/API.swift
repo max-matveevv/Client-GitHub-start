@@ -8,9 +8,12 @@
 
 import UIKit
 import Alamofire
+import Gloss
 
-class AuthData {
-    static let sharedInstance = AuthData()
+class API {
+    static let sharedInstance = API()
+    
+    fileprivate let API_URL = "https://api.github.com"
     
     private var _userName: String?
     private var _authString: String?
@@ -57,7 +60,7 @@ class AuthData {
         }
         
         let authString = String(format: "Basic %@", credentialsData)
-        Alamofire.request("https://api.github.com/user",
+        Alamofire.request(API_URL + "/user",
                           method: .get,
                           parameters: nil,
                           encoding: URLEncoding.default,
@@ -74,18 +77,33 @@ class AuthData {
         }
     }
     
-    func request(
-        url: URLConvertible,
+    func httpRequest(
+        url: String,
         method: HTTPMethod,
-        parameters: Parameters,
-        headers: HTTPHeaders? = nil,
-        completion: @escaping (_ dict: [String : AnyObject]) -> (),
-        error: @escaping () -> ()) {
+        parameters: Parameters?,
+        headers: HTTPHeaders?,
+        completion: @escaping (_ json: Any, _ error: Error?) -> ()) {
         
-        Alamofire.request(url,
-                          method: method,
-                          parameters: parameters,
-                          headers: headers)
+        var httpHeaders = headers
+        if httpHeaders == nil {
+            httpHeaders = authHeader
+        }
+        
+        let reqUrl = API_URL + url//"https://api.github.com/users/kdavydov31/repos"
+        Alamofire.request(reqUrl, method: method, parameters: parameters, encoding: URLEncoding.default, headers: httpHeaders).responseJSON { (response) in
+                completion(response.result.value, response.result.error)
+        }
+    }
+    
+    func getRepos(completion: @escaping (_ reposList: [Repository]?, _ error: Error?) -> ()) {
+        httpRequest(url: "/user/repos", method: .get, parameters: nil, headers: nil) { (data, err) in
+            if let json = data as? [JSON] {
+                let reposList = [Repository].from(jsonArray: json)
+                completion(reposList, nil)
+            } else {
+                completion(nil, err)
+            }
+        }
     }
     
     func signOut() {

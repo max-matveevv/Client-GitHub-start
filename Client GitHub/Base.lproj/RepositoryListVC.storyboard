@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,27 +21,6 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ftf-0W-nP4" id="z9y-6j-dkX">
                                     <frame key="frameInset" width="375" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="when it was made" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8qX-VG-azU">
-                                            <frame key="frameInset" width="1000" height="1000"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Name Repository" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dt2-6l-gd6">
-                                            <frame key="frameInset" width="1000" height="1000"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                    <constraints>
-                                        <constraint firstAttribute="bottomMargin" secondItem="dt2-6l-gd6" secondAttribute="bottom" constant="5" id="66N-GV-FQr"/>
-                                        <constraint firstItem="8qX-VG-azU" firstAttribute="leading" secondItem="dt2-6l-gd6" secondAttribute="trailing" constant="85" id="LgP-ft-Zo1"/>
-                                        <constraint firstItem="8qX-VG-azU" firstAttribute="centerY" secondItem="dt2-6l-gd6" secondAttribute="centerY" id="TP3-8n-Zf5"/>
-                                        <constraint firstItem="dt2-6l-gd6" firstAttribute="top" secondItem="z9y-6j-dkX" secondAttribute="topMargin" constant="5" id="czC-jQ-iR7"/>
-                                        <constraint firstItem="dt2-6l-gd6" firstAttribute="leading" secondItem="z9y-6j-dkX" secondAttribute="leadingMargin" constant="5" id="f9X-FM-6ZG"/>
-                                    </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -51,9 +29,6 @@
                             <outlet property="delegate" destination="yxb-r4-0v0" id="Gxq-Jk-Zoo"/>
                         </connections>
                     </tableView>
-                    <connections>
-                        <outlet property="tableRepository" destination="u3A-QH-c6k" id="qMI-1U-xYs"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CUk-E4-cuP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

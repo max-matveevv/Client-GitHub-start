@@ -32,7 +32,7 @@ class MainViewController: UIViewController {
         
         SVProgressHUD.show()
         
-        AuthData.sharedInstance.login(user: user, password: password) { (isSuccess) in
+        API.sharedInstance.login(user: user, password: password) { (isSuccess) in
             
             
             if isSuccess {

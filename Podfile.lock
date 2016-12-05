@@ -1,18 +1,21 @@
 PODS:
   - Alamofire (4.0.1)
+  - Gloss (1.1.0)
   - HTTPStatusCodes (3.1.0)
   - SVProgressHUD (2.0.3)
 
 DEPENDENCIES:
   - Alamofire
+  - Gloss
   - HTTPStatusCodes
   - SVProgressHUD
 
 SPEC CHECKSUMS:
   Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  Gloss: a8340c124ff69c5d1c12e06c252373f4a16d2958
   HTTPStatusCodes: e0747e2497f1c887944a306b7d7122cb2a01f553
   SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
 
-PODFILE CHECKSUM: 090a4afed314a57b6cf5c19406a014f3b607a3f6
+PODFILE CHECKSUM: 95899f71558bb524649647959f5ecb47bb315dda
 
 COCOAPODS: 1.1.1
