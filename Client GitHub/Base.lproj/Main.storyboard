@@ -107,6 +107,14 @@
             </objects>
             <point key="canvasLocation" x="2138" y="130"/>
         </scene>
+        <!--CommitList-->
+        <scene sceneID="Ht2-nd-WKV">
+            <objects>
+                <viewControllerPlaceholder storyboardName="CommitList" referencedIdentifier="CommitList" id="aBf-eB-zL2" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kGH-QG-DWC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2486" y="130"/>
+        </scene>
     </scenes>
     <resources>
         <image name="technology-icon-github" width="250" height="100"/>

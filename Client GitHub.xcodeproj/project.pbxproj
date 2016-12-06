@@ -23,6 +23,8 @@
 		749170D41DF04949002B3F44 /* InfoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749170D31DF04949002B3F44 /* InfoRepository.swift */; };
 		749170D71DF04A0D002B3F44 /* InforRepository.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 749170D51DF04A0D002B3F44 /* InforRepository.storyboard */; };
 		74A715C21DF59A140053F0B5 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A715C11DF59A140053F0B5 /* Repository.swift */; };
+		B51B9DF61DF7200A00BA121F /* CommitList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B51B9DF51DF7200A00BA121F /* CommitList.storyboard */; };
+		B51B9DF81DF720A100BA121F /* CommitList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51B9DF71DF720A100BA121F /* CommitList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		749170D31DF04949002B3F44 /* InfoRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoRepository.swift; sourceTree = "<group>"; };
 		749170D61DF04A0D002B3F44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/InforRepository.storyboard; sourceTree = "<group>"; };
 		74A715C11DF59A140053F0B5 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		B51B9DF51DF7200A00BA121F /* CommitList.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CommitList.storyboard; sourceTree = "<group>"; };
+		B51B9DF71DF720A100BA121F /* CommitList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommitList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +151,7 @@
 				50B7A52F1DEC3C5C00929378 /* Main.storyboard */,
 				50B7A52D1DEC3C5C00929378 /* MainViewController.swift */,
 				505225571DF5E802005FAAE8 /* RepoCell.swift */,
+				B51B9DF51DF7200A00BA121F /* CommitList.storyboard */,
 				749170CA1DEEE0D1002B3F44 /* RepositoryListVC.storyboard */,
 				74A715BE1DF599B70053F0B5 /* Models */,
 				50B7A5591DEC40E800929378 /* Screens */,
@@ -175,6 +180,7 @@
 		50B7A5591DEC40E800929378 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				B51B9DF71DF720A100BA121F /* CommitList.swift */,
 				749170C81DEEE08E002B3F44 /* RepositoryListVC.swift */,
 				749170D31DF04949002B3F44 /* InfoRepository.swift */,
 			);
@@ -299,6 +305,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B51B9DF61DF7200A00BA121F /* CommitList.storyboard in Resources */,
 				749170CE1DEEE34F002B3F44 /* Podfile in Resources */,
 				50B7A5361DEC3C5C00929378 /* LaunchScreen.storyboard in Resources */,
 				50B7A5331DEC3C5C00929378 /* Assets.xcassets in Resources */,
@@ -377,6 +384,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B51B9DF81DF720A100BA121F /* CommitList.swift in Sources */,
 				74A715C21DF59A140053F0B5 /* Repository.swift in Sources */,
 				505225581DF5E802005FAAE8 /* RepoCell.swift in Sources */,
 				749170D41DF04949002B3F44 /* InfoRepository.swift in Sources */,
