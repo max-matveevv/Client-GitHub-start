@@ -2,7 +2,8 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11201"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,6 +22,29 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zyj-mY-5Yb" id="E9Y-V0-nUS">
                                     <frame key="frameInset" width="375" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Name commit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u8n-Qe-S7Z">
+                                            <frame key="frameInset" minX="22" minY="14" width="141" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" misplaced="YES" text="Who made" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wwx-cH-9Qw">
+                                            <frame key="frameInset" minX="221" minY="14" width="110" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Wwx-cH-9Qw" firstAttribute="bottom" secondItem="E9Y-V0-nUS" secondAttribute="bottomMargin" constant="12" id="2lp-Dk-cFC"/>
+                                        <constraint firstItem="Wwx-cH-9Qw" firstAttribute="top" secondItem="E9Y-V0-nUS" secondAttribute="topMargin" constant="13" id="8nW-B8-FAM"/>
+                                        <constraint firstItem="Wwx-cH-9Qw" firstAttribute="leading" secondItem="u8n-Qe-S7Z" secondAttribute="trailing" constant="130" id="A6J-SN-NfE"/>
+                                        <constraint firstItem="u8n-Qe-S7Z" firstAttribute="leading" secondItem="E9Y-V0-nUS" secondAttribute="leadingMargin" constant="5" id="FNf-34-Goc"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="Wwx-cH-9Qw" secondAttribute="trailing" constant="-20" id="I8r-fw-oob"/>
+                                        <constraint firstItem="u8n-Qe-S7Z" firstAttribute="top" secondItem="E9Y-V0-nUS" secondAttribute="topMargin" constant="5" id="YwP-zs-65b"/>
+                                        <constraint firstItem="u8n-Qe-S7Z" firstAttribute="bottom" secondItem="E9Y-V0-nUS" secondAttribute="bottomMargin" id="wfb-GB-P4C"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -33,7 +57,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4JL-9J-rJD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-43" y="77"/>
+            <point key="canvasLocation" x="-44" y="76.911544227886068"/>
         </scene>
     </scenes>
 </document>
