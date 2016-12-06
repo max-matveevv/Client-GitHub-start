@@ -9,12 +9,11 @@
 import UIKit
 
 class RepositoryListVC: UITableViewController {
-    
     var reposList: [Repository]?
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-//    RepoCell.tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: )
+        
         API.sharedInstance.getRepos { (reposList, err) in
             if let reposList = reposList {
                 self.reposList = reposList
