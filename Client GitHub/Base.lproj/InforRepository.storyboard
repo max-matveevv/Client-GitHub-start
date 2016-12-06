@@ -10,20 +10,21 @@
         <!--Info Repository-->
         <scene sceneID="DIh-mb-eOL">
             <objects>
-                <tableViewController storyboardIdentifier="InfoRepository" id="m2l-Zw-SW4" customClass="InfoRepository" customModule="Client_GitHub" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="InfoRepository" useStoryboardIdentifierAsRestorationIdentifier="YES" id="m2l-Zw-SW4" customClass="InfoRepository" customModule="Client_GitHub" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="LNO-dR-5Db">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <view key="tableFooterView" contentMode="scaleToFill" id="Pi8-L4-guo">
-                            <rect key="frame" x="0.0" y="72" width="375" height="494"/>
+                            <rect key="frame" x="0.0" y="72" width="375" height="594"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F7P-dT-wON">
-                                    <frame key="frameInset" minX="55" minY="55" width="42" height="21"/>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F7P-dT-wON">
+                                    <frame key="frameInset" minX="55" minY="55" width="132" height="21"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
+                                    <size key="shadowOffset" width="0.0" height="0.0"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Repository" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lVP-IM-upM">
                                     <frame key="frameInset" minX="55" minY="102" width="42" height="21"/>
@@ -88,7 +89,7 @@
                                 <constraint firstAttribute="trailing" secondItem="znB-0v-tqt" secondAttribute="trailing" id="mEd-fN-PkR"/>
                                 <constraint firstItem="MvT-r1-EZ7" firstAttribute="leading" secondItem="YxI-X8-Yg2" secondAttribute="leading" id="mhV-EU-ing"/>
                                 <constraint firstAttribute="bottom" secondItem="MvT-r1-EZ7" secondAttribute="bottom" id="si0-cp-xCM"/>
-                                <constraint firstItem="NJX-NY-cba" firstAttribute="leading" secondItem="F7P-dT-wON" secondAttribute="trailing" constant="40" id="tlk-YX-XXM"/>
+                                <constraint firstItem="NJX-NY-cba" firstAttribute="leading" secondItem="F7P-dT-wON" secondAttribute="trailing" id="tlk-YX-XXM"/>
                                 <constraint firstAttribute="trailing" secondItem="0LQ-hA-V4l" secondAttribute="trailing" id="uOc-N4-q5G"/>
                                 <constraint firstItem="oPf-WQ-QBY" firstAttribute="trailing" secondItem="NJX-NY-cba" secondAttribute="trailing" id="vKX-oj-UjT"/>
                             </constraints>
@@ -98,9 +99,10 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SMV-fe-C5g" id="kOk-aX-Jje">
-                                    <frame key="frameInset" width="375" height="44"/>
+                                    <frame key="frameInset" width="375" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.74509803921568629" green="0.70588235294117641" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
                             </tableViewCell>
                         </prototypes>
                         <connections>

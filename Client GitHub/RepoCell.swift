@@ -9,6 +9,9 @@
 import UIKit
 
 class RepoCell: UITableViewCell {
+    @IBOutlet weak var whenMade: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var cellView: UIView!
     
     // fixed code
 /*(UITableViewCell *)tableView: (UITableView *)tableView

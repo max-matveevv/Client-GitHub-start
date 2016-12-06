@@ -18,24 +18,33 @@ class InfoRepository: UITableViewController {
     @IBOutlet weak var watchesLabel: UILabel!
     @IBOutlet weak var watchesCountLabel: UILabel!
     @IBOutlet weak var imageView: UIImageView!
-
+    
+    var reposList: [Repository]?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+           nameLabel.text = reposList?[0].name
     }
-   
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+    }
+
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
     // MARK: - Table view data source
-
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 0
     }
-
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return 0

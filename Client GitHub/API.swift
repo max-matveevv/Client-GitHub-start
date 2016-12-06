@@ -90,15 +90,22 @@ class API {
         }
         
         let reqUrl = API_URL + url//"https://api.github.com/users/kdavydov31/repos"
-        Alamofire.request(reqUrl, method: method, parameters: parameters, encoding: URLEncoding.default, headers: httpHeaders).responseJSON { (response) in
+        Alamofire.request(reqUrl,
+                          method: method,
+                          parameters: parameters,
+                          encoding: URLEncoding.default,
+                          headers: httpHeaders).responseJSON { (response) in
                 completion(response.result.value, response.result.error)
         }
     }
     
     func getRepos(completion: @escaping (_ reposList: [Repository]?, _ error: Error?) -> ()) {
-        httpRequest(url: "/user/repos", method: .get, parameters: nil, headers: nil) { (data, err) in
+        httpRequest(url: "/user/repos",
+                    method: .get,
+                    parameters: nil,
+                    headers: nil) { (data, err) in
             if let json = data as? [JSON] {
-                let reposList = [Repository].from(jsonArray: json)
+                var reposList = [Repository].from(jsonArray: json)
                 completion(reposList, nil)
             } else {
                 completion(nil, err)
