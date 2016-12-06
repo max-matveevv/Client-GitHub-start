@@ -10,22 +10,12 @@ import UIKit
 
 class RepoCell: UITableViewCell {
     
-    // fixed code
-/*(UITableViewCell *)tableView: (UITableView *)tableView
-    cellForRowAtIndexPath: (NSIndexPath *)indexPath {
-        static NSString *cellIdentifier = @"myCell";
-        MyCell *cell = (MyCell *) [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
-        if (cell == nil) {
-            NSArray *t = [[NSBundle mainBundle] loadNibNamed:@"myCellXibFileName"
-                                                    owner:nil options:nil];
-            for (id currentObject in t) {
-                if ([currentObject isKindOfClass:[MyCell class]]) {
-                    cell = (MyCell *)currentObject;
-                    break;
-                }
-            }
-        }
-    return cell;
-    }*/
+    func setData(data: Repository?) {
+       
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) ->     UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath as   IndexPath)
+    return cell
+    }
 }
- 
