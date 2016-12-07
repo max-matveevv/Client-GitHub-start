@@ -37,6 +37,7 @@
                                         </state>
                                         <connections>
                                             <action selector="onLoginTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DRo-6f-Gy1"/>
+                                            <segue destination="a4c-l2-KBS" kind="custom" id="YcC-OW-Mty"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -107,10 +108,10 @@
             </objects>
             <point key="canvasLocation" x="2138" y="130"/>
         </scene>
-        <!--CommitList-->
+        <!--Storyboard Reference-->
         <scene sceneID="Ht2-nd-WKV">
             <objects>
-                <viewControllerPlaceholder storyboardName="CommitList" referencedIdentifier="CommitList" id="aBf-eB-zL2" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder id="aBf-eB-zL2" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kGH-QG-DWC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2486" y="130"/>

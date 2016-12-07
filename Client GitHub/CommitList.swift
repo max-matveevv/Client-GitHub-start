@@ -12,6 +12,7 @@ class CommitList: UITableViewCell {
     
     @IBOutlet var nameCommit: UILabel!
     @IBOutlet var whoMade: UILabel!
+    @IBOutlet var myView: UIView!
     
     
     func numberOfSections(in tableView: UITableView) -> Int {
