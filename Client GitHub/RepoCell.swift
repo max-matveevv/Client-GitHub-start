@@ -9,9 +9,12 @@
 import UIKit
 
 class RepoCell: UITableViewCell {
+    
     @IBOutlet weak var whenMade: UILabel!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var cellView: UIView!
+    
+    // MARK: App Delegates
     
     func setData(data: Repository?) {
        

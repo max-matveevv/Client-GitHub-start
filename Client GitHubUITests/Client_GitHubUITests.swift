@@ -9,7 +9,9 @@
 import XCTest
 
 class Client_GitHubUITests: XCTestCase {
-        
+    
+    // MARK: Overrides
+    
     override func setUp() {
         super.setUp()
         
@@ -27,6 +29,8 @@ class Client_GitHubUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
+    
+    // MARK: App Delegates
     
     func testExample() {
         // Use recording to get started writing UI tests.

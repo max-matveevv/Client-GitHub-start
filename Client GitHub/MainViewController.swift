@@ -11,9 +11,12 @@ import Alamofire
 import SVProgressHUD
 
 class MainViewController: UIViewController {
+    
     @IBOutlet weak var loginTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var loginButton: UIButton!
+    
+     // MARK: Overrides
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,6 +35,8 @@ class MainViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    // MARK: App Delegates
+    
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         
@@ -45,8 +50,10 @@ class MainViewController: UIViewController {
         return true
     }
 
+    // MARK: Button Actions
 
     @IBAction func onLoginTouched(_ sender: AnyObject) {
+        
         let user = loginTextField.text ?? ""
         let password = passwordTextField.text ?? ""
         
