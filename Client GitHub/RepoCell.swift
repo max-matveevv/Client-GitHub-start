@@ -17,7 +17,7 @@ class RepoCell: UITableViewCell {
     // MARK: App Delegates
     
     func setData(data: Repository?) {
-       
+        var reposList: [Repository]
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) ->     UITableViewCell {
