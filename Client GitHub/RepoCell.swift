@@ -10,18 +10,16 @@ import UIKit
 
 class RepoCell: UITableViewCell {
     
-    @IBOutlet weak var whenMade: UILabel!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var cellView: UIView!
+    @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var privacyIconImageView: UIImageView!
     
-    // MARK: App Delegates
+     //MARK: App Delegates
     
     func setData(data: Repository?) {
-       
-    }
-    
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) ->     UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath as   IndexPath)
-    return cell
+        nameLabel.text = data?.name
+        descriptionLabel.text = data?.description
+        privacyIconImageView.image = UIImage(named: (data?.isPrivate ?? false) ? "Lock" : "Unlock")
     }
 }

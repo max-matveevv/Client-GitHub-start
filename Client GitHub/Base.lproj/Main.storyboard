@@ -37,7 +37,6 @@
                                         </state>
                                         <connections>
                                             <action selector="onLoginTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DRo-6f-Gy1"/>
-                                            <segue destination="a4c-l2-KBS" kind="custom" id="YcC-OW-Mty"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -82,6 +81,14 @@
             </objects>
             <point key="canvasLocation" x="1729.5999999999999" y="129.53523238380811"/>
         </scene>
+        <!--repoInfoVC-->
+        <scene sceneID="2m7-ae-4WJ">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="repoInfoVC" storyboardName="InfoRepository" referencedIdentifier="repoInfoVC" id="VUi-4Y-jER" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eXp-zw-Dip" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2092" y="131"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="1oM-rk-Ns9">
             <objects>
@@ -99,14 +106,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o20-sv-jq5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="129.98500749625188"/>
-        </scene>
-        <!--InfoRepository-->
-        <scene sceneID="k4k-NC-ewe">
-            <objects>
-                <viewControllerPlaceholder storyboardIdentifier="InfoRepository" storyboardName="InforRepository" referencedIdentifier="InfoRepository" id="eIg-sj-YPb" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tZK-kA-eAK" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2138" y="130"/>
         </scene>
         <!--Storyboard Reference-->
         <scene sceneID="Ht2-nd-WKV">

@@ -9,15 +9,16 @@
 import UIKit
 import Alamofire
 
-class InfoRepository: UITableViewController {
+class InfoRepository: UIViewController {
+    
     @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var repositoryLabel: UILabel!
-    @IBOutlet weak var discriptionLabel: UILabel!
+    @IBOutlet weak var authorLabel: UILabel!
+    @IBOutlet weak var avatar: UIImageView!
+    @IBOutlet weak var desriptionLabel: UILabel!
     @IBOutlet weak var forksLabel: UILabel!
-    @IBOutlet weak var forksCountLabel: UILabel!
     @IBOutlet weak var watchesLabel: UILabel!
+    @IBOutlet weak var forksCountLabel: UILabel!
     @IBOutlet weak var watchesCountLabel: UILabel!
-    @IBOutlet weak var imageView: UIImageView!
     
     var reposList: [Repository]?
     
@@ -25,8 +26,7 @@ class InfoRepository: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-           nameLabel.text = reposList?[0].name
+    
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -40,15 +40,8 @@ class InfoRepository: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    // MARK: - Table view data source
-    
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
+    func setData(data: Repository?) {
+        
     }
-    
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
-    }
+
 }

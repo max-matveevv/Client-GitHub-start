@@ -44,12 +44,16 @@ class RepositoryListVC: UITableViewController {
         return reposList?.count ?? 0
     }
     
-    /*override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        1. создать класс RepoCell: UITableViewCell
-        2. все элементы интерфейса прокинуть в созданный класс (не сюда!!!)
-        3. сделать в новом классе метод setData(data: Repository?)
-        4. создавать ячейку с помощью dequeue for reusable inentifier..... (погуглить)
-        5. Передавать в созданную ячейку данные отсюда (data: self.reposList[indexPath.row]
-        6. возвращать ячейку return cell
-    }*/
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath as   IndexPath) as! RepoCell
+        cell.setData(data: reposList?[indexPath.row])
+        return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        let vc = storyboard.instantiateViewController(withIdentifier: "repoInfoVC") as! InfoRepository
+        vc.setData(data: reposList?[indexPath.row])
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }
