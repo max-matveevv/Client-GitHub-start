@@ -10,19 +10,17 @@ import UIKit
 
 class RepoCell: UITableViewCell {
     
+    @IBOutlet weak var whenMade: UILabel!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var cellView: UIView!
-    @IBOutlet weak var descriptionLabel: UILabel!
-    @IBOutlet weak var privacyIconImageView: UIImageView!
     
     static var reposList: [Repository]?
     
     // MARK: App Delegates
     
     func setData(data: Repository?) {
-        nameLabel.text = data?.name
-        descriptionLabel.text = data?.description
-        privacyIconImageView.image = UIImage(named: (data?.isPrivate ?? false) ? "Lock" : "Unlock")
+        
+       
     }
 //    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 //        return 2

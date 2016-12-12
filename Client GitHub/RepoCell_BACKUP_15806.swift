@@ -15,14 +15,21 @@ class RepoCell: UITableViewCell {
     @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var privacyIconImageView: UIImageView!
     
-    static var reposList: [Repository]?
-    
-    // MARK: App Delegates
+<<<<<<< Updated upstream
+     //MARK: App Delegates
     
     func setData(data: Repository?) {
         nameLabel.text = data?.name
         descriptionLabel.text = data?.description
         privacyIconImageView.image = UIImage(named: (data?.isPrivate ?? false) ? "Lock" : "Unlock")
+=======
+    static var reposList: [Repository]?
+    
+    // MARK: App Delegates
+    
+    func setData(data: Repository?) {
+        
+       
     }
 //    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 //        return 2
@@ -44,5 +51,6 @@ class RepoCell: UITableViewCell {
         nameLabel.text = RepoCell.reposList?[0].name
         
         return cell
+>>>>>>> Stashed changes
     }
 }

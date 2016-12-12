@@ -396,8 +396,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "21"
             endingLineNumber = "21"
-            landmarkName = "init(json:)"
-            landmarkType = "7">
+            landmarkName = "Repository"
+            landmarkType = "3">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
@@ -460,56 +460,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "30"
             endingLineNumber = "30"
-            landmarkName = "viewDidLoad()"
+            landmarkName = "didReceiveMemoryWarning()"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Client GitHub/RepositoryListVC.swift"
-            timestampString = "502721984.90575"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Client_GitHub.RepositoryListVC.viewDidLoad () -&gt; ()"
-                  moduleName = "Client GitHub"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mikhail/Documents/Client-GitHub-start/Client%20GitHub/RepositoryListVC.swift"
-                  timestampString = "502719531.047653"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "175">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Client_GitHub.RepositoryListVC.(viewDidLoad () -&gt; ()).(closure #1)"
-                  moduleName = "Client GitHub"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mikhail/Documents/Client-GitHub-start/Client%20GitHub/RepositoryListVC.swift"
-                  timestampString = "502719531.052405"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "494">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
