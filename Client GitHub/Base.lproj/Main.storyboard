@@ -94,7 +94,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LYx-zl-82g" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="RLe-qh-PQa">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="RLe-qh-PQa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -107,10 +107,12 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="129.98500749625188"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--commitListVC-->
         <scene sceneID="Ht2-nd-WKV">
             <objects>
-                <viewControllerPlaceholder id="aBf-eB-zL2" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardIdentifier="CommitList" storyboardName="CommitList" referencedIdentifier="commitListVC" id="aBf-eB-zL2" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="pxA-vD-37w"/>
+                </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kGH-QG-DWC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2486" y="130"/>

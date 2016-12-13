@@ -19,8 +19,10 @@ class InfoRepository: UIViewController {
     @IBOutlet weak var watchesLabel: UILabel!
     @IBOutlet weak var forksCountLabel: UILabel!
     @IBOutlet weak var watchesCountLabel: UILabel!
+    @IBOutlet weak var buttonCommitList: UIButton!
     
     var reposList: [Repository]?
+    var commitList: [Repository]?
     
     // MARK: Overrides
     
@@ -34,6 +36,13 @@ class InfoRepository: UIViewController {
         
     }
 
+    @IBAction func buttonCommitList(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        let vc = storyboard.instantiateViewController(withIdentifier: "CommitList")
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -43,5 +52,6 @@ class InfoRepository: UIViewController {
     func setData(data: Repository?) {
         
     }
+
 
 }
