@@ -8,24 +8,50 @@
 
 import UIKit
 
-class CommitList: UITableViewCell {
+class CommitList: UITableViewController {
+
+    var commitList: [CommitCell]?
     
-    @IBOutlet var nameCommit: UILabel!
-    @IBOutlet var whoMade: UILabel!
-    @IBOutlet var myView: UIView!
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        //    RepoCell.tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: )
+        API.sharedInstance.getRepos { (reposList, err) in
+            if let commitList = self.commitList {
+                self.commitList = commitList
+                self.tableView.reloadData()
+            } else {
+                debugPrint(err)
+            }
+        }
+    }
     
-    // MARK: App Delegates
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
     
-    func numberOfSections(in tableView: UITableView) -> Int {
+    // MARK: - Table view data source
+    
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        // #warning Incomplete implementation, return the number of sections
         return 1
     }
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 0
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        // #warning Incomplete implementation, return the number of rows
+        return commitList?.count ?? 0
     }
     
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) ->     UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath as   IndexPath)
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "commitListVC", for: indexPath as   IndexPath) as! CommitCell
+//        cell.setData(data: commitList?[indexPath.row])
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        let vc = storyboard.instantiateViewController(withIdentifier: "commitListVC") as! CommitList
+//        vc.setData(data: commitList?[indexPath.row])
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 }

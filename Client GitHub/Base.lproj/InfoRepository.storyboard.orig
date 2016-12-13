@@ -72,8 +72,12 @@
                             <constraint firstItem="Q3n-XW-emH" firstAttribute="leading" secondItem="iiP-zH-U6c" secondAttribute="leading" id="16a-LT-78k"/>
                             <constraint firstItem="iq3-kb-eu9" firstAttribute="top" secondItem="KCh-wE-u5Z" secondAttribute="top" id="1bW-pt-rde"/>
                             <constraint firstItem="7S7-bQ-4li" firstAttribute="top" secondItem="0tR-tj-WF8" secondAttribute="bottom" constant="20" id="2k8-h5-7ww"/>
+<<<<<<< HEAD
+                            <constraint firstItem="KCh-wE-u5Z" firstAttribute="top" secondItem="KL2-fh-ubY" secondAttribute="bottom" constant="10" id="E0M-zb-Qa8"/>
+=======
                             <constraint firstItem="KCh-wE-u5Z" firstAttribute="top" secondItem="KL2-fh-ubY" secondAttribute="bottom" constant="10" id="5vj-Mw-BWR"/>
                             <constraint firstItem="iY9-Pp-Og2" firstAttribute="trailing" secondItem="iq3-kb-eu9" secondAttribute="trailing" id="8xH-aE-cpV"/>
+>>>>>>> origin/master
                             <constraint firstAttribute="trailingMargin" secondItem="iq3-kb-eu9" secondAttribute="trailing" constant="30" id="JKH-gI-top"/>
                             <constraint firstItem="00h-f0-N8v" firstAttribute="baseline" secondItem="Q3n-XW-emH" secondAttribute="baseline" id="Q5N-9P-ebr"/>
                             <constraint firstItem="iY9-Pp-Og2" firstAttribute="leading" secondItem="Q3n-XW-emH" secondAttribute="leading" id="UaA-NO-mVo"/>

@@ -21,8 +21,13 @@ class InfoRepository: UIViewController {
     @IBOutlet weak var watchesCountLabel: UILabel!
     @IBOutlet weak var buttonCommitList: UIButton!
     
+<<<<<<< HEAD
     var reposListInfo: [Repository]?
     var data: Repository?
+=======
+    var reposList: [Repository]?
+    var commitList: [Repository]?
+>>>>>>> origin/master
     
     // MARK: Overrides
     
@@ -55,5 +60,14 @@ class InfoRepository: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+<<<<<<< HEAD
   
+=======
+    
+    func setData(data: Repository?) {
+        
+    }
+
+
+>>>>>>> origin/master
 }

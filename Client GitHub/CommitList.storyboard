@@ -10,16 +10,16 @@
         <!--Commit List-->
         <scene sceneID="iVv-h7-4dm">
             <objects>
-                <tableViewController id="Ns3-f8-Mc9" customClass="CommitList" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="F9V-BV-OF1">
+                <tableViewController storyboardIdentifier="commitListVC" id="Ns3-f8-Mc9" customClass="CommitList" customModule="Client_GitHub" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="F9V-BV-OF1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="zyj-mY-5Yb" customClass="CommitList" customModule="Client_GitHub" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="commitListVC" id="zyj-mY-5Yb" customClass="CommitCell" customModule="Client_GitHub" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zyj-mY-5Yb" id="E9Y-V0-nUS">
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="commitView" tableViewCell="zyj-mY-5Yb" id="E9Y-V0-nUS">
                                     <frame key="frameInset" width="375" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
@@ -45,9 +45,9 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="myView" destination="E9Y-V0-nUS" id="7uN-Pa-fkV"/>
-                                    <outlet property="nameCommit" destination="u8n-Qe-S7Z" id="eRo-DR-DZl"/>
-                                    <outlet property="whoMade" destination="Wwx-cH-9Qw" id="CYT-qP-vxi"/>
+                                    <outlet property="cellCommit" destination="E9Y-V0-nUS" id="hMv-h7-F2M"/>
+                                    <outlet property="nameCommit" destination="u8n-Qe-S7Z" id="E4S-Ht-Pdc"/>
+                                    <outlet property="whoMade" destination="Wwx-cH-9Qw" id="EcD-uE-DhH"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
