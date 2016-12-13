@@ -17,6 +17,7 @@
 		50B7A5411DEC3C5C00929378 /* Client_GitHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B7A5401DEC3C5C00929378 /* Client_GitHubTests.swift */; };
 		50B7A54C1DEC3C5C00929378 /* Client_GitHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B7A54B1DEC3C5C00929378 /* Client_GitHubUITests.swift */; };
 		6F59FB1541737374C61B56BC /* Pods_Client_GitHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD4EEFF87D9F1F3C4E5EDEB /* Pods_Client_GitHub.framework */; };
+		746D10831E00766A00587167 /* InfoRepository.xib in Resources */ = {isa = PBXBuildFile; fileRef = 746D10821E00766A00587167 /* InfoRepository.xib */; };
 		749170C91DEEE08E002B3F44 /* RepositoryListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749170C81DEEE08E002B3F44 /* RepositoryListVC.swift */; };
 		749170CC1DEEE0D1002B3F44 /* RepositoryListVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 749170CA1DEEE0D1002B3F44 /* RepositoryListVC.storyboard */; };
 		749170CE1DEEE34F002B3F44 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 749170CD1DEEE34F002B3F44 /* Podfile */; };
@@ -63,6 +64,7 @@
 		50B7A5471DEC3C5C00929378 /* Client GitHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Client GitHubUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B7A54B1DEC3C5C00929378 /* Client_GitHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client_GitHubUITests.swift; sourceTree = "<group>"; };
 		50B7A54D1DEC3C5C00929378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		746D10821E00766A00587167 /* InfoRepository.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoRepository.xib; sourceTree = "<group>"; };
 		749170C81DEEE08E002B3F44 /* RepositoryListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryListVC.swift; sourceTree = "<group>"; };
 		749170CB1DEEE0D1002B3F44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/RepositoryListVC.storyboard; sourceTree = "<group>"; };
 		749170CD1DEEE34F002B3F44 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -155,6 +157,7 @@
 				749170CA1DEEE0D1002B3F44 /* RepositoryListVC.storyboard */,
 				74A715BE1DF599B70053F0B5 /* Models */,
 				50B7A5591DEC40E800929378 /* Screens */,
+				746D10821E00766A00587167 /* InfoRepository.xib */,
 			);
 			path = "Client GitHub";
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				50B7A5361DEC3C5C00929378 /* LaunchScreen.storyboard in Resources */,
 				5010DE121DFD8F9500D46AF8 /* InfoRepository.storyboard in Resources */,
 				50B7A5331DEC3C5C00929378 /* Assets.xcassets in Resources */,
+				746D10831E00766A00587167 /* InfoRepository.xib in Resources */,
 				50B7A5311DEC3C5C00929378 /* Main.storyboard in Resources */,
 				749170CC1DEEE0D1002B3F44 /* RepositoryListVC.storyboard in Resources */,
 			);

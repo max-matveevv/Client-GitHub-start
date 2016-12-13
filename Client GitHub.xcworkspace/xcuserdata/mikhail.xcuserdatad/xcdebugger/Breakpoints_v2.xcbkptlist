@@ -57,393 +57,12 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Client GitHub/Repository.swift"
-            timestampString = "502717123.564621"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
-            landmarkName = "Repository"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Client_GitHub.Repository.name.getter : Swift.Optional&lt;Swift.String&gt;"
-                  moduleName = "Client GitHub"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mikhail/Documents/Client-GitHub-start/Client%20GitHub/Repository.swift"
-                  timestampString = "502717142.940277"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "70">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Client_GitHub.Repository.name.setter : Swift.Optional&lt;Swift.String&gt;"
-                  moduleName = "Client GitHub"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mikhail/Documents/Client-GitHub-start/Client%20GitHub/Repository.swift"
-                  timestampString = "502717142.944051"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "150">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Client GitHub/Repository.swift"
-            timestampString = "502717124.613454"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
-            landmarkName = "Repository"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Client_GitHub.Repository.init (json : Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; Swift.Optional&lt;Client_GitHub.Repository&gt;"
-                  moduleName = "Client GitHub"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mikhail/Documents/Client-GitHub-start/Client%20GitHub/Repository.swift"
-                  timestampString = "502717142.952316"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "135">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Client_GitHub.Repository.description.setter : Swift.Optional&lt;Swift.String&gt;"
-                  moduleName = "Client GitHub"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mikhail/Documents/Client-GitHub-start/Client%20GitHub/Repository.swift"
-                  timestampString = "502717142.959001"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "150">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Client GitHub/Repository.swift"
-            timestampString = "502717125.771113"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "Repository"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Client_GitHub.Repository.init (json : Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; Swift.Optional&lt;Client_GitHub.Repository&gt;"
-                  moduleName = "Client GitHub"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mikhail/Documents/Client-GitHub-start/Client%20GitHub/Repository.swift"
-                  timestampString = "502717142.965953"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "155">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Client_GitHub.Repository.isPrivate.getter : Swift.Optional&lt;Swift.Bool&gt;"
-                  moduleName = "Client GitHub"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mikhail/Documents/Client-GitHub-start/Client%20GitHub/Repository.swift"
-                  timestampString = "502717142.969473"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "11">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Client GitHub/Repository.swift"
-            timestampString = "502717127.171601"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
-            landmarkName = "Repository"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Client_GitHub.Repository.init (json : Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; Swift.Optional&lt;Client_GitHub.Repository&gt;"
-                  moduleName = "Client GitHub"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mikhail/Documents/Client-GitHub-start/Client%20GitHub/Repository.swift"
-                  timestampString = "502717142.978939"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17"
-                  offsetFromSymbolStart = "199">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Client_GitHub.Repository.avatarUrl.getter : Swift.Optional&lt;Swift.String&gt;"
-                  moduleName = "Client GitHub"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mikhail/Documents/Client-GitHub-start/Client%20GitHub/Repository.swift"
-                  timestampString = "502717142.981877"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17"
-                  offsetFromSymbolStart = "70">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Client_GitHub.Repository.avatarUrl.setter : Swift.Optional&lt;Swift.String&gt;"
-                  moduleName = "Client GitHub"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mikhail/Documents/Client-GitHub-start/Client%20GitHub/Repository.swift"
-                  timestampString = "502717142.984686"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17"
-                  offsetFromSymbolStart = "150">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Client GitHub/Repository.swift"
-            timestampString = "502717128.270886"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
-            landmarkName = "Repository"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Client_GitHub.Repository.init (json : Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; Swift.Optional&lt;Client_GitHub.Repository&gt;"
-                  moduleName = "Client GitHub"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mikhail/Documents/Client-GitHub-start/Client%20GitHub/Repository.swift"
-                  timestampString = "502717142.991569"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
-                  offsetFromSymbolStart = "240">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Client_GitHub.Repository.forksCount.getter : Swift.Optional&lt;Swift.Int&gt;"
-                  moduleName = "Client GitHub"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mikhail/Documents/Client-GitHub-start/Client%20GitHub/Repository.swift"
-                  timestampString = "502717142.994397"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
-                  offsetFromSymbolStart = "15">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Client_GitHub.Repository.forksCount.setter : Swift.Optional&lt;Swift.Int&gt;"
-                  moduleName = "Client GitHub"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mikhail/Documents/Client-GitHub-start/Client%20GitHub/Repository.swift"
-                  timestampString = "502717142.997268"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
-                  offsetFromSymbolStart = "38">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Client GitHub/Repository.swift"
-            timestampString = "502717129.527947"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "Repository"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Client_GitHub.Repository.init (json : Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; Swift.Optional&lt;Client_GitHub.Repository&gt;"
-                  moduleName = "Client GitHub"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mikhail/Documents/Client-GitHub-start/Client%20GitHub/Repository.swift"
-                  timestampString = "502717143.004204"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "279">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Client_GitHub.Repository.watchesCount.getter : Swift.Optional&lt;Swift.Int&gt;"
-                  moduleName = "Client GitHub"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mikhail/Documents/Client-GitHub-start/Client%20GitHub/Repository.swift"
-                  timestampString = "502717143.007007"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "15">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Client_GitHub.Repository.watchesCount.setter : Swift.Optional&lt;Swift.Int&gt;"
-                  moduleName = "Client GitHub"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mikhail/Documents/Client-GitHub-start/Client%20GitHub/Repository.swift"
-                  timestampString = "502717143.009551"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "38">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Client GitHub/Repository.swift"
-            timestampString = "502717131.586424"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "Repository"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Client_GitHub.Repository.init (json : Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; Swift.Optional&lt;Client_GitHub.Repository&gt;"
-                  moduleName = "Client GitHub"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mikhail/Documents/Client-GitHub-start/Client%20GitHub/Repository.swift"
-                  timestampString = "502717143.016217"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
-                  offsetFromSymbolStart = "31">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Client_GitHub.Repository.__allocating_init (json : Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; Swift.Optional&lt;Client_GitHub.Repository&gt;"
-                  moduleName = "Client GitHub"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mikhail/Documents/Client-GitHub-start/Client%20GitHub/Repository.swift"
-                  timestampString = "502717143.019648"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "4">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "Client GitHub/RepositoryListVC.swift"
-            timestampString = "502721984.90575"
+            timestampString = "503345628.677272"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -455,12 +74,122 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Client GitHub/RepositoryListVC.swift"
-            timestampString = "502721984.90575"
+            timestampString = "503345628.677272"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
             landmarkName = "didReceiveMemoryWarning()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Client GitHub/RepositoryListVC.swift"
+            timestampString = "503345882.983376"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "RepositoryListVC"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Client_GitHub.RepositoryListVC.infoScr.getter : Client_GitHub.InfoRepository"
+                  moduleName = "Client GitHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mikhail/Documents/Client-GitHub-start/Client%20GitHub/RepositoryListVC.swift"
+                  timestampString = "503345911.520292"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Client_GitHub.RepositoryListVC.init (style : __C.UITableViewStyle) -&gt; Client_GitHub.RepositoryListVC"
+                  moduleName = "Client GitHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mikhail/Documents/Client-GitHub-start/Client%20GitHub/RepositoryListVC.swift"
+                  timestampString = "503345911.527954"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Client_GitHub.RepositoryListVC.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Client_GitHub.RepositoryListVC"
+                  moduleName = "Client GitHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mikhail/Documents/Client-GitHub-start/Client%20GitHub/RepositoryListVC.swift"
+                  timestampString = "503345911.531264"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Client_GitHub.RepositoryListVC.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Client_GitHub.RepositoryListVC&gt;"
+                  moduleName = "Client GitHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mikhail/Documents/Client-GitHub-start/Client%20GitHub/RepositoryListVC.swift"
+                  timestampString = "503345911.534766"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Client GitHub/InfoRepository.swift"
+            timestampString = "503349467.910651"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "setData(data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Client GitHub/InfoRepository.swift"
+            timestampString = "503349467.910651"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -20,13 +20,21 @@ class InfoRepository: UIViewController {
     @IBOutlet weak var forksCountLabel: UILabel!
     @IBOutlet weak var watchesCountLabel: UILabel!
     
-    var reposList: [Repository]?
+    var reposListInfo: [Repository]?
+    var data: Repository?
     
     // MARK: Overrides
     
     override func viewDidLoad() {
         super.viewDidLoad()
+     setData(data: data)
+    }
     
+    func setData(data: Repository?) {
+        nameLabel.text = data?.name
+        desriptionLabel.text = data?.description
+        forksCountLabel.text = String(describing: data?.forksCount)
+        watchesCountLabel.text = String(describing: data?.watchesCount)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -39,9 +47,5 @@ class InfoRepository: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    func setData(data: Repository?) {
-        
-    }
-
+  
 }
