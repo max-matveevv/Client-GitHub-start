@@ -20,6 +20,7 @@ class InfoRepository: UIViewController {
     @IBOutlet weak var forksCountLabel: UILabel!
     @IBOutlet weak var watchesCountLabel: UILabel!
     @IBOutlet weak var buttonCommitList: UIButton!
+    @IBOutlet weak var commitsListButton: UIButton!
     
     var reposListInfo: [Repository]?
     var data: Repository?
