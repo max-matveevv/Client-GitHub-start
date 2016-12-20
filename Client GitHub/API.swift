@@ -11,6 +11,7 @@ import Alamofire
 import Gloss
 
 class API {
+    var data: Repository?
     static let sharedInstance = API()
     
     fileprivate let API_URL = "https://api.github.com"
@@ -115,7 +116,7 @@ class API {
     }
     
     func getCommit(completion: @escaping (_ reposList: [Repository]?, _ error: Error?) -> ()) {
-        httpRequest(url: "/repos/:owner/:repo/commits",
+        httpRequest(url: "/repos/\(data?.owner?["login"])/\(data?.name)/commits",
                     method: .get,
                     parameters: nil,
                     headers: nil) { (data, err) in

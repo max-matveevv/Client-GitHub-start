@@ -15,13 +15,8 @@ class CommitList: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //    RepoCell.tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: )
-        API.sharedInstance.getRepos { (reposList, err) in
-            if let commitList = self.commitList {
-                self.commitList = commitList
-                self.tableView.reloadData()
-            } else {
-                debugPrint(err)
-            }
+        API.sharedInstance.getCommit { (commitList, err) in
+            
         }
     }
     
