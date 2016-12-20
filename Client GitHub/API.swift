@@ -53,8 +53,9 @@ class API {
                password: String,
                completion: @escaping (Bool) -> ()) {
         let credentialsStr = String(format: "%@:%@", user, password)
-        guard let credentialsData = credentialsStr.data(using: String.Encoding.utf8)?.base64EncodedString() else {
-            signOut()
+        guard let credentialsData = credentialsStr.data(
+            using: String.Encoding.utf8)?.base64EncodedString() else {
+                signOut()
             completion(false)
             return
         }
@@ -95,7 +96,7 @@ class API {
                           parameters: parameters,
                           encoding: URLEncoding.default,
                           headers: httpHeaders).responseJSON { (response) in
-                completion(response.result.value, response.result.error)
+                            completion(response.result.value, response.result.error)
         }
     }
     
@@ -104,15 +105,28 @@ class API {
                     method: .get,
                     parameters: nil,
                     headers: nil) { (data, err) in
-            if let json = data as? [JSON] {
-                var reposList = [Repository].from(jsonArray: json)
-                completion(reposList, nil)
-            } else {
-                completion(nil, err)
-            }
+                        if let json = data as? [JSON] {
+                            var reposList = [Repository].from(jsonArray: json)
+                            completion(reposList, nil)
+                        } else {
+                            completion(nil, err)
+                        }
         }
     }
     
+    func getCommit(completion: @escaping (_ reposList: [Repository]?, _ error: Error?) -> ()) {
+        httpRequest(url: "/repos/:owner/:repo/commits",
+                    method: .get,
+                    parameters: nil,
+                    headers: nil) { (data, err) in
+                        if let json = data as? [JSON] {
+                            var reposList = [Repository].from(jsonArray: json)
+                            completion(reposList, nil)
+                        } else {
+                            completion(nil, err)
+                        }
+        }
+    }
     func signOut() {
         _userName = nil
         _authString = nil

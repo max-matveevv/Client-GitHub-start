@@ -24,23 +24,10 @@ class RepoCell: UITableViewCell {
         descriptionLabel.text = data?.description
         privacyIconImageView.image = UIImage(named: (data?.isPrivate ?? false) ? "Lock" : "Unlock")
     }
-//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-//        return 2
-//    }
-//    
-//    let data = ["sdfasd", "fads"]
-//    
-//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//        let cell = tableView.dequeueReusableCell(withIdentifier: personCellIdentifier, for: indexPath)
-//        
-//        cell.textLabel?.text = data[indexPath.row]
-//        
-//        return cell
-//    }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath as   IndexPath)
-    
+        
         nameLabel.text = RepoCell.reposList?[0].name
         
         return cell

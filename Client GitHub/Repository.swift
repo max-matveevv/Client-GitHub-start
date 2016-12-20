@@ -18,6 +18,7 @@ final class Repository: Decodable {
     var avatarUrl: String?
     var forksCount: Int?
     var watchesCount: Int?
+    var owner: [String : Any]?
     
     init?(json: JSON) {
         id = "id" <~~ json
@@ -27,5 +28,6 @@ final class Repository: Decodable {
         avatarUrl = "avatar_url" <~~ json
         forksCount = "forks_count" <~~ json
         watchesCount = "watchers_count" <~~ json
+        owner = "owner" <~~ json
     }
 }

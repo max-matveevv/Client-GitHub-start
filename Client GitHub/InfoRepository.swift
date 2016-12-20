@@ -29,7 +29,7 @@ class InfoRepository: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-     setData(data: data)
+        setData(data: data)
     }
     
     func setData(data: Repository?) {
@@ -37,24 +37,22 @@ class InfoRepository: UIViewController {
         desriptionLabel.text = data?.description
         forksCountLabel.text = String(describing: data?.forksCount)
         watchesCountLabel.text = String(describing: data?.watchesCount)
+        authorLabel.text = data?.owner?["login"] as? String
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
     }
-
+    
     @IBAction func buttonCommitList(_ sender: UIButton) {
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
         let vc = storyboard.instantiateViewController(withIdentifier: "CommitList")
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
-    
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-  
 }
